@@ -1,0 +1,27 @@
+#Task 1
+def fact(a):
+    if a<2:
+        return 1
+    else :
+        return a*fact(a-1)
+    
+print("Hello")
+b=int(input("Enter the no. :"))
+c=fact(b)
+print("Factorial of",b, "is :",c)
+
+
+#Task 2
+import math
+
+def cal(d):
+    sq=math.pow(d,1/2)
+    log=math.log(d)
+    sin=math.sin(d)
+    print("Square root :",sq)
+    print("Logarithm :",log)
+    print("Sine :",sin)
+
+print("Hello")
+e=int(input("Enter the no. :"))
+cal(e)
